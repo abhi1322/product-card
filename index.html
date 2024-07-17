@@ -33,7 +33,7 @@
   >
     <div
       role="card"
-      class="flex flex-col md:flex-row md:w-[40%] md:h-[60vh] bg-white w-full rounded-2xl overflow-hidden"
+      class="flex flex-col md:flex-row md:w-[600px] md:h-[500px] bg-white w-full rounded-2xl overflow-hidden"
     >
       <div class="left-ctn w-[100%]">
         <img
@@ -42,12 +42,14 @@
           alt="Product Image"
         />
         <img
-          class="object-cover w-[100%] hidden md:flex h-full"
+          class="object-cover w-full hidden md:flex h-full"
           src="./images/image-product-desktop.jpg"
           alt="Product Image"
         />
       </div>
-      <div class="right-ctn p-6 font-['Montserrat'] flex flex-col md:p-8">
+      <div
+        class="right-ctn h-[50%] p-6 font-['Montserrat'] flex flex-col md:p-8 md:justify-between"
+      >
         <p
           class="uppercase tracking-[5px] font-[600] text-[#6c7289] opacity-70 md:mb-4"
         >
@@ -58,27 +60,29 @@
         >
           Gabrielle Essence Eau De Parfum
         </h1>
-        <p class="text-[#6c7289] font-[600] opacity-70 mb-4 md:mb-[15vh]">
+        <p class="text-[#6c7289] font-[600] opacity-70 mb-4">
           A floral, solar and voluptuous interpretation composed by Olivier
           Polge, Perfumer-Creator for the House of CHANEL.
         </p>
 
-        <h6
-          class="text-[#3c8067] text-[40px] font-['Fraunces'] flex items-center gap-4 font-bold mb-8"
-        >
-          $149.99
-          <span
-            class="font-['Montserrat'] text-[#6c7289] line-through text-lg opacity-70 font-[500]"
-            >$169.99</span
+        <div class="w-full h-full">
+          <h6
+            class="text-[#3c8067] text-[40px] font-['Fraunces'] flex items-center gap-4 font-bold mb-8"
           >
-        </h6>
+            $149.99
+            <span
+              class="font-['Montserrat'] text-[#6c7289] line-through text-lg opacity-70 font-[500]"
+              >$169.99</span
+            >
+          </h6>
 
-        <button
-          class="bg-[#3c8067] flex justify-center items-center w-full h-[60px] gap-4 text-white font-bold rounded-xl"
-        >
-          <img src="./images/icon-cart.svg" alt="cart logo" />
-          Add to Cart
-        </button>
+          <button
+            class="bg-[#3c8067] flex justify-center items-center w-full h-[60px] gap-4 text-white font-bold rounded-xl"
+          >
+            <img src="./images/icon-cart.svg" alt="cart logo" />
+            Add to Cart
+          </button>
+        </div>
       </div>
     </div>
 
